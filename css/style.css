@@ -1,0 +1,155 @@
+body{
+        text-align: center;
+    vertical-align: middle;
+}
+
+.footer{
+    background-color: darkgrey;
+    width: 100%;
+    height: 70px;
+    margin-bottom: 0px;
+    position: fixed;
+    bottom: 0px;
+    box-shadow: 1px 1px 1em black;
+}
+
+.container{
+    margin-top: 5%;
+    margin-right: 5%;
+    margin-left: 5%;
+}
+
+.frontpg{
+    box-shadow: 1px 1px 1em darkblue;
+    background-color: azure; 
+    border-radius: 5em;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.firstimg{
+    border-radius: 5em;
+    padding: 1em;
+    width: 450px;
+    height:450px;
+}
+.ele{
+    padding:1em;
+}
+
+.writing{
+    font-size: large;
+}
+
+.crt_element{
+    padding:1em;
+    text-align: center;
+}
+
+#Create{
+ border: solid;
+ padding: 1em;
+ border-color: darkgray;
+ border-radius: 1em;
+}
+
+.full_task{
+    background-color:darkgrey; 
+    text-align: center; 
+    align-items: center; 
+    justify-content: center;  
+    position: fixed; 
+    height:100%; 
+    width: 100%; 
+    z-index: 1; 
+    opacity: 50%;
+}
+
+.task_content{
+    background-color: white;
+     padding:1em; 
+     margin:10% 35%;
+     width: 40%;
+     z-index: 2;
+     position:fixed;
+     box-shadow: 1px 1px 2em black;
+     border: solid;
+     text-align: center;
+     border-color:grey;
+     border-radius: 1em;
+}
+
+
+.edit{
+    border: solid; 
+    border-radius: 3px; 
+    border-color:aliceblue; 
+    background-color:azure; 
+    padding-bottom:2px;
+}
+
+.edit:hover{
+    background-color: white;
+}
+
+.contact_c{
+    padding:1em;
+    margin:5%;
+    margin-top:2em;
+    background-color: aliceblue;
+    padding-top: 1em;
+}
+
+
+@media (max-width: 1000px) {
+    .contact_col2{
+        padding-top: 1em;
+    }
+}
+
+.btn_sl{
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 10px;
+}
+
+.btn_sl:hover{
+    background-color:azure;
+}
+
+.tiki{
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.tiki:hover{
+    color: black;
+}
+
+
+@media (max-width: 1000px) {
+    
+    .container{
+        margin-top: 5%;
+        margin-left: 3%;
+        margin-right: 3%; 
+        width: 94%
+    }
+    
+    .firstimg{
+        width: 300px;
+        height: 300px;
+        padding:0.5em;
+    } 
+
+    .ele{
+        padding: 0.2em;
+        text-align: center;
+    }
+
+    .frontbtn{
+        padding-bottom: 1em;
+    }
+
+}
